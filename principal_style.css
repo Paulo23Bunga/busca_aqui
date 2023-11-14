@@ -1,0 +1,71 @@
+#inicio {
+	margin: 0;
+	max-height: 100vh;
+	max-width: 100%;
+	background-image: url(./img/Fundo.jpg);
+	position: relative !important;
+	text-align: center;
+	padding-top: 10em;
+}
+
+.search-box{
+	position: absolute;
+	top: 105%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background: #0a1b2d;
+	height: 40px;
+	padding: 10px;
+	border-radius: 40px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+}
+ .search-txt {
+ 	border: none;
+ 	background: none;
+ 	outline: none; 
+ 	padding: 0;
+ 	color: #f0f5fb;
+ 	font-size: 16px;
+ 	line-height: 40px;
+ 	width: 0;
+ 	transition: .5s; 
+ }
+
+ .search-txt1{
+  max-width: 100%;
+  color: #f0f5fb;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  height: 100px;
+  font-family: ariel;
+  font-size: 70px;
+ }
+
+
+
+.search-btn { 
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+    background: #0a1b2d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .5s;
+
+}
+.search-box:hover > .search-txt {
+   
+   width: 240px;
+   padding: 0 6px;
+}
+
+.search-box:hover > .search-btn {
+
+	background: #f0f5fb;
+}
+
